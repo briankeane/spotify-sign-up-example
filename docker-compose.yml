@@ -1,0 +1,16 @@
+version: '2'
+services:
+  spotify_server:
+    container_name: "spotify_server"
+    build: .
+    ports:
+      - "9000:9000"
+    volumes:
+      - ./:/home/playola
+      - /home/playola/node_modules
+    entrypoint: env-cmd .env nodemon spotify_server
+    env_file: ./.env
+
+  mongo:
+    container_name: "mongo"
+    build: ./Docker/mongo

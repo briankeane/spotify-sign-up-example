@@ -1,0 +1,19 @@
+{
+  "name": "spotifysignin",
+  "version": "1.0.0",
+  "description": "A Sample Sign Up with Spotify Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briankeane/spotify-sign-up-example.git"
+  },
+  "author": "Brian Keane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/briankeane/spotify-sign-up-example/issues"
+  },
+  "homepage": "https://github.com/briankeane/spotify-sign-up-example#readme"
+}
