@@ -22,7 +22,7 @@ app.use(bodyParser.json());
 app.use('/auth', require('./auth'));
 
 var port = process.env.PORT || 9000
-app.listen(port function () {
+app.listen(port, function () {
   console.log(`Example app listening on ${port} !`)
 });
 
