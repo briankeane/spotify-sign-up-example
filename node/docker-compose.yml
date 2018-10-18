@@ -6,8 +6,8 @@ services:
     ports:
       - "9000:9000"
     volumes:
-      - ./:/home/playola
-      - /home/playola/node_modules
+      - .:/home/playola
+      # - /home/playola/node_modules
     entrypoint: env-cmd .env nodemon spotify_server
     env_file: ./.env
 
